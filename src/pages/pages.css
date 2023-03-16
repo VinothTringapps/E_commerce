@@ -1,0 +1,20 @@
+.item{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+.product{
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+    /* margin: 50px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product img{
+    width: 200px;
+}
